@@ -1,0 +1,25 @@
+.cocktail-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.cocktail-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.cocktail-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.cocktail-detail {
+  text-align: center;
+  padding: 20px;
+}
